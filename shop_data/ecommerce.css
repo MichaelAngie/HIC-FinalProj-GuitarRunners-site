@@ -1,0 +1,18 @@
+/* Search Bar Text replace with Search Icon */
+
+.itpxl-search-icon::after {
+    content: '\55';
+    font-family: ETModules;
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%) scaleX(-1);
+    pointer-events: none;
+    z-index: 9;
+}
+
+.itpxl-search-icon .et_pb_searchsubmit {
+    z-index: 10;
+}
